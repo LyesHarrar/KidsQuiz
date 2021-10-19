@@ -1,0 +1,4 @@
+1-mot de passe administrateur : quizangers
+2-pour se connecter il suffit d'importer le fichier sql a phpmyadmin aprés avoir créer una base de donnée sous le nom "bdquiz"
+puis il suffit d'acceder au fichier "bdconfig.php" et entrez le mot de passe et le nom d'utilisateur de votre serveur local !
+3- vous pouvez créer une page aide.php et y mettre votre adresse mail pour etre connécté par un futur admin du site en cas de bug ou d'erreur

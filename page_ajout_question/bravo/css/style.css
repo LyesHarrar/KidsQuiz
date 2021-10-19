@@ -1,0 +1,102 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url("https://fonts.googleapis.com/css?family=Titan+One");
+body {
+  background: linear-gradient(to top, #7b00e0, #ff006a);
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+h1 {
+  font-size: 2em;
+  font-family: "Titan One", san-serif;
+  background-color: rgba(255, 0, 106, 0.4);
+  border-radius: 100%;
+  box-shadow: 0 0 2em 1em rgba(255, 0, 106, 0.4);
+  color: white;
+  margin: 30vh auto;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 8px 0 rgba(123, 0, 224, 0.4);
+  /*transform: rotate(-12deg);*/
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  blink
+}
+h1 span {
+  color: #ffc901;
+  font-size: 3em;
+}
+
+.blob {
+  animation: blobby 4s infinite;
+}
+
+.blob2 {
+  animation: blobby2 6s infinite;
+}
+
+@keyframes blobby {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes blobby2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.18);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+svg {
+  position: absolute;
+  top: 0;
+}
+
+#svg-right {
+  display: block;
+  fill: #7b00e0;
+  opacity: 0.5;
+  right: 0;
+  width: 60%;
+  z-index: -10;
+}
+
+#svg-left {
+  fill: #ff006a;
+  margin: 0;
+  width: 60%;
+  z-index: -10;
+}
+
+@media all and (max-width: 980px) {
+  h1 {
+    font-size: 3em;
+    font-family: "Titan One", san-serif;
+  }
+}
+@media all and (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+    font-family: "Titan One", san-serif;
+  }
+}
