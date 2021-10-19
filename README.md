@@ -2,6 +2,8 @@
 
 Site web effectué en 2017 dans le cadre d'un stage d'université consistant à réaliser une application web qui représente un jeu de QUIZ pour enfant permettant a l'administrateur de gérer, modifier, créer, ajouter à partir des questions proposés par les joueurs et supprimer des questions.
 
+![landingpage kidsquiz](bienvenue.png)
+
 ## Cahier des charges et rapport complet
 
 [Fonctionnement du site web détaillé avec images et explications](https://raw.githubusercontent.com/LyesHarrar/KidsQuiz/master/rapport.pdf)
