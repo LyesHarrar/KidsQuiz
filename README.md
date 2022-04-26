@@ -18,6 +18,6 @@ la platforme à été réalisée en __HTML/CSS__ en __PHP/mySQL__ pour la gestio
 - Lancer le site en serveur local (localhost) en utilisant *Apache* ou *Xampp* par exemple.
 - pour se connecter il suffit d'importer le fichier sql a phpmyadmin aprés avoir créer una base de donnée sous le nom "__bdquiz__" (*nécessaire*)
   puis il suffit d'acceder au fichier "__bdconfig.php__" et entrez le mot de passe et le nom d'utilisateur de votre serveur local.
-- vous pouvez créer une page aide.php et y mettre votre adresse mail pour etre connecté par un futur admin du site en cas de bug ou d'erreur
+- vous pouvez créer une page aide.php et y mettre votre adresse mail pour etre contacté par un futur admin du site en cas de bug ou d'erreur
 - mot de passe administrateur : __quizangers__
 - rapport complet dans le fichier __rapport.pdf__
